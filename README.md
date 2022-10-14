@@ -2,7 +2,7 @@
 
 # Usage
 - First install Python and PIP to your computer
-  https://pip.pypa.io/en/stable/installing/
+  https://pypi.org/project/pip/
   
 - Install Pytest
   https://docs.pytest.org/en/7.1.x/getting-started.html

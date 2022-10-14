@@ -1,14 +1,17 @@
-# Rocket-Elevators-Javascript-Controller
+# Rocket-Elevators-Python-Controller
 
 # Usage
-Type in the console: npm install
+- First install Python and PIP to your computer
+  https://pip.pypa.io/en/stable/installing/
+  
+- Install Pytest
+  https://docs.pytest.org/en/7.1.x/getting-started.html
+  
+- To run the test, type in your console : python -m pytest
 
 ## Example
-npm install
 
-npm run dev
-
-npm test
+python -m pytest
 
 # Description
 This program is a controller for an elevator installation which takes the input from outside the elevator to call the best possible elevator and pick up the person on the right floor. Then once inside it, they can select wichever floor input they want to go to and takes them to the destination. The code is able to run through multiple scenarios with different floors, different directions and different stops.

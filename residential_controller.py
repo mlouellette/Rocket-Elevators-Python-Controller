@@ -1,6 +1,7 @@
 elevatorID = 1
 floorRequestButtonID = 1
 callButtonID = 1
+
 class Column:
     def __init__(self, _ID, _amountOfFloors, _amountOfElevators):
         self.ID = _ID
@@ -159,25 +160,26 @@ class Elevator:
                 self.door.status = "closed"
             else:
                 self.operateDoors
+                
         else:
             while self == "overweight":
                print("Overweight")
             self.operateDoors()
+            
 class CallButton:
     def __init__(self, _id, _floor, _direction):
         self.ID = _id
         self.status = ""
         self.floor = _floor
         self.direction = _direction
+        
 class FloorRequestButton:
     def __init__(self, _id, _floor ):
         self.ID = _id
         self.status = ""
         self.floor = _floor
+        
 class Door:
     def __init__(self, _id):
         self.ID = _id
         self.status = ""
-
-
-#module.exports = { Column, Elevator, CallButton, FloorRequestButton, Door}

@@ -1,34 +1,21 @@
-# Rocket-Elevators-Python-Controller
-This is the template to use for the python residential controller. You will find the classes that should be used along with some methods described in the requirements. The necessary file to run some tests is also included. 
+# Rocket-Elevators-Javascript-Controller
 
-### Installation
+# Usage
+Type npm install in the console
 
-First, depending on your python version, make sure to install the Package Installer for Python (PIP) if needed:
+## Example
+npm install
 
-https://pip.pypa.io/en/stable/installing/
+npm run dev
 
-Next, install Pytest:
+# Description
+This program is a controller for an elevator installation which takes the input from outside the elevator to call the best possible elevator and pick up the person on the right floor. Then once inside it, they can select wichever floor input they want to go to and takes them to the destination. The code is able to run through multiple scenarios with different floors, different directions and different stops.
 
-https://docs.pytest.org/en/6.2.x/getting-started.html
+# Dependencies
+Run program needs:
+- Current floor of the person pressing the button
+- Current floor of the elevator
+- Direction the elevator is going
+- Direction the person wants to go
+- Status of the elevator
 
-### Running the tests
-
-To launch the tests:
-
-`pytest`
-
-With a fully completed project, you should get an output like:
-
-![Screenshot from 2021-06-15 13-13-13](https://user-images.githubusercontent.com/28630658/122095645-a41fa000-cddb-11eb-9322-81a766cce4bb.png)
-
-You can also get more details about each test by adding the `-v` flag: 
-
-`pytest -v` 
-
-which should give something like: 
-
-![Screenshot from 2021-06-15 13-13-33](https://user-images.githubusercontent.com/28630658/122095759-c74a4f80-cddb-11eb-999d-dfe35dbe7d18.png)
-
-The test file can be left in your final project but no scenarios should be present in your code. The grader will run tests similar to the ones provided.
-
-Of course, make sure to edit this Readme file to describe your own project!

@@ -1,7 +1,7 @@
 # Rocket-Elevators-Javascript-Controller
 
 # Usage
-Type npm install in the console
+Type in the console: npm install
 
 ## Example
 npm install
